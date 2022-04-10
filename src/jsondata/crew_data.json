@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "img":"image path1",
+        "name":"ABC",
+        "title":"xyz",
+        "linkedin":"linkedin link",
+        "insta":"insta link",
+        "fb":"facebook link"
+    },
+    {
+        "id":2,
+        "img":"image path2",
+        "name":"DEF",
+        "title":"pqr",
+        "linkedin":"linkedin link",
+        "insta":"insta link",
+        "fb":"facebook link"
+    },
+    {
+        "id":3,
+        "img":"image path3",
+        "name":"GHI",
+        "title":"stu",
+        "linkedin":"linkedin link",
+        "insta":"insta link",
+        "fb":"facebook link"
+    }
+
+]
