@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 .mint_section{
     background: #181818;
 }
-img{
-    opacity: 1;
+.btn_class{
+    font-family: 'Lobster', 'cursive';
 }

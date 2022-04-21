@@ -11,6 +11,8 @@
     background-position: center;
     animation: mymove 3s infinite;
 }
+
+/* for the animation of the red eyes */
 @keyframes mymove {
     from {
         background: #000000;

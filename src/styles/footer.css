@@ -4,3 +4,12 @@
 .part2{
     width: '100%';
 }
+.btn_prop{
+    background: '#000000';
+    color: '#ffffff';
+    border: '2px solid #3F0071';
+    width: '100%';
+}
+.btn_prop:hover{
+    background: '#3F0071'
+}

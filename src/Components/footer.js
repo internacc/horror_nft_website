@@ -9,11 +9,14 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import '../styles/footer.css'
+import Comp1 from './comp1';
+import Comp2 from './comp2';
 
 //this cannot be found in docs. It is the syntax to make our own custom css and apply it to the Tags or components we want to apply to
+//the website. makeStyles and createStyles are the one that needs to be imported
 const useStyles = makeStyles((theme) =>
     createStyles({
-        button_prop:{
+        btn_prop:{
             background: '#000000',
             color: '#ffffff',
             border: '2px solid #3F0071',
@@ -35,7 +38,7 @@ const useStyles = makeStyles((theme) =>
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'start',
-            justifyContent: 'space-'
+            justifyContent: 'space-between'
         }
     }),
 );
@@ -57,7 +60,7 @@ const Enter = () => {
             <Typography variant="h3" component="div" gutterBottom sx={{ color: '#FFA900' }}>
                 <strong>DARE TO ENTER</strong>
             </Typography>
-            <Button className={classes1.button_prop}>
+            <Button className={`'btn_prop' ${classes1.btn_prop}`}>
                 <Typography variant="h5" component="div">
                 JOIN OUR DISCORD
                 </Typography>
@@ -93,10 +96,10 @@ const Footer = () => {
         <Box sx={{ flexGrow: 1 , height: '50vh'}}>
             <Grid container spacing={2}>
                 <Grid item xs={12} md={6} >
-                    <Item sx={{ height: "50vh", display: 'flex', justifyContent: 'start', alignItems: 'start', width: '100%', padding: '5%' }}><Enter /></Item>
+                    <Item sx={{ height: "50vh", display: 'flex', justifyContent: 'start', alignItems: 'start', width: '100%', padding: '5%' }}><Comp1 /></Item>
                 </Grid>
                 <Grid item xs={12} md={6}>
-                    <Item sx={{ height: "50vh", display: 'flex', justifyContent: 'end', alignItems: 'start', width: '100%', padding: '5%' }}><Follow /></Item>
+                    <Item sx={{ height: "50vh", display: 'flex', justifyContent: 'end', alignItems: 'start', width: '100%', padding: '5%' }}><Comp2 /></Item>
                 </Grid>
             </Grid>
             <div className='part2'>
