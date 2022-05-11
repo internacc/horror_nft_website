@@ -1,6 +1,6 @@
 import * as React from 'react';
 import "../styles/crew.css";
-import datas from "../jsondata/crew_data.json";
+// import datas from "../jsondata/crew_data.json";
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
